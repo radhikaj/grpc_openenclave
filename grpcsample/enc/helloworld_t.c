@@ -1358,8 +1358,8 @@ oe_result_t oe_host_ocall_recvmsg(
 
     _result = OE_OK;
 done:    
-//    if (_buffer)
-//        oe_free_ocall_buffer(_buffer);
+    //if (_buffer)
+    //    oe_free_ocall_buffer(_buffer);
     return _result;
 }
 
