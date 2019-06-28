@@ -3,7 +3,8 @@
 ### Clone repo
 `git clone https://github.com/radhikaj/grpc_openenclave.git --recursive`
 
-cd ~/grpc_openenclave
+`cd ~/grpc_openenclave`
+
 `git submodule --update`
 
 ### Apply patches to submodules
