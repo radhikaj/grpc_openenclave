@@ -11,7 +11,7 @@ int creat(const char * a, mode_t b)
     return retval.ret;
 }
 
-int fcntl(int a, int b, uint64_t c)
+int fcntl(int a, int b, long c)
 {
     oe_fcntl_result_t retval;
     oe_host_ocall_fcntl(&retval, a, b, (int64_t)c);
